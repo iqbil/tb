@@ -1,0 +1,57 @@
+﻿UMUR;JENIS KELAMIN;FOTO TORAKS;STATUS HIV;RIWAYAT DIABETES;LOKASI ANATOMI (target/output);;;;;;;;;;;;;;;;;;;;;;;;;
+50;P;Positif;Negatif;Tidak;Paru;;;;;;;;;;;;;;;;;;;;;;;;;
+47;P;Positif;Negatif;Tidak;Paru;;Jumlah Data;;;Total;;;Node ;;Keterangan;Jumlah Kasus;Paru;Ekstra Paru;Entropy;Gain;;;;;;;;;;
+57;P;Positif;Negatif;Tidak;Paru;;Umur;;20;20;;;;;;;;;;;;;;;;;;;;
+31;P;Positif;Negatif;Tidak;Paru;;Jenis Kelamin;L;0;20;;;1;Total ;;20;17;3;0,609840305;;;;;;;;;;;
+33;P;Positif;Negatif;Tidak;Paru;;;P;20;;;;;;;;;;;;;;;;;;;;;
+30;P;Positif;Negatif;Tidak;Paru;;Foto Toraks;Positif;19;20;;;;Umur;;;;;;0,074488926;;;;;;;;;;
+27;P;Positif;Negatif;Tidak;Ekstra paru;;;Negatif;1;;;;;;1 sampai 33;6;4;2;0,918295834;;;;;;;;;;;
+65;P;Positif;Negatif;Tidak;Paru;;Status HIV;Positif;0;20;;;;;39 sampai 67;14;13;1;0,371232327;;;;;;;;;;;
+60;P;Positif;Negatif;Tidak;Paru;;;Negatif;20;;;;;Jenis kelamin;;;;;;0;;;;;;;;;;
+57;P;Positif;Negatif;Tidak;Paru;;Riwayat Diabetes;Ya;0;20;;;;;P;20;17;3;0,609840305;;;;;;;;;;;
+66;P;Positif;Negatif;Tidak;Paru;;;Tidak;20;;;;;;L;0;0;0;0;;;;;;;;;;;
+51;P;Positif;Negatif;Tidak;Paru;;Lokasi Anatomi;Paru;17;20;;;;Foto Toraks;;;;;;0,148652582;Gain Tertinggi;;;;;;;;;
+21;P;Positif;Negatif;Tidak;Paru;;;Ekstra paru;3;;;;;;Positif;19;17;2;0,485460761;;;;;;;;;;;
+67;P;Positif;Negatif;Tidak;Paru;;;;;;;;;;Negatif;1;0;1;0;;;;;;;;;;;
+47;P;Positif;Negatif;Tidak;Paru;;;;;;;;;Status HIV;;;;;0;0;;;;;;;;;;
+21;P;Negatif;Negatif;Tidak;Ekstra paru;;;;;;;;;;Positif;0;0;0;0;;;;;;;;;;;
+55;P;Positif;Negatif;Tidak;Paru;;;;;;;;;;Negatif;20;17;3;0,609840305;;;;;;;;;;;
+36;P;Positif;Negatif;Tidak;Paru;;;;;;;;;Riwayat Diabetes;;;;;0;0;;;;;;;;;;
+58;P;Positif;Negatif;Tidak;Ekstra paru;;;;;;;;;;Ya;0;0;0;0;;;;;;;;;;;
+50;P;Positif;Negatif;Tidak;Paru;;;;;;;;;;Tidak;20;17;3;0,609840305;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;FOTO TORAKS (POSITIF);;;;;;;;;;FOTO TORAKS (NEGATIF);;;;;
+;;;;;;;;;;;;;Node ;;Keterangan;Jumlah Kasus;Paru;Ekstra Paru;Entropy;Gain;;;Node ;;Keterangan;Jumlah Kasus;Paru;Ekstra Paru;Entropy;Gain
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;1,1;Total ;;19;17;2;0,485460761;;;;1,1;Total ;;1;0;1;0;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;Umur;;;;;;0,021940074;;;;Umur;;;;;;0
+;;;;;;;;;;;;;;;1 sampai 33;5;4;1;0,721928095;;;;;;1 sampai 33;1;0;1;0;
+;;;;;;;;;;;;;;;34 sampai 67;14;13;1;0,371232327;;;;;;34 sampai 67;0;0;0;0;
+;;;;;;;;;;;;;;Jenis kelamin;;;;;;0;;;;Jenis kelamin;;;;;;0
+;;;;;;;;;;;;;;;P;19;17;2;0,485460761;;;;;;P;1;0;1;0;
+;;;;;;;;;;;;;;;L;0;0;0;0;;;;;;L;0;0;0;0;
+;;;;;;;;;;;;;;Status HIV;;;;;;0;;;;Status HIV;;;;;;0
+;;;;;;;;;;;;;;;Positif;0;0;0;0;;;;;;Positif;0;0;0;0;
+;;;;;;;;;;;;;;;Negatif;19;17;2;0,485460761;;;;;;Negatif;1;0;1;0;
+;;;;;;;;;;;;;;Riwayat Diabetes;;;;;;0;;;;Riwayat Diabetes;;;;;;0
+;;;;;;;;;;;;;;;Ya;0;0;0;0;;;;;;Ya;0;0;0;0;
+;;;;;;;;;;;;;;;Tidak;19;17;2;0,485460761;;;;;;Tidak;1;0;1;0;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;UMUR (1 SAMPAI 41);;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Node ;;Keterangan;Jumlah Kasus;Paru;Ekstra Paru;Entropy;Gain;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;1.1.1;Total ;;5;4;1;0,721928095;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;Jenis kelamin;;;;;;0;;;;;;;;;;
+;;;;;;;;;;;;;;;P;5;4;1;0,721928095;;;;;;;;;;;
+;;;;;;;;;;;;;;;L;0;0;1;0;;;;;;;;;;;
+;;;;;;;;;;;;;;Status HIV;;;;;;0;;;;;;;;;;
+;;;;;;;;;;;;;;;Positif;0;0;0;0;;;;;;;;;;;
+;;;;;;;;;;;;;;;Negatif;5;4;1;0,721928095;;;;;;;;;;;
+;;;;;;;;;;;;;;Riwayat Diabetes;;;;;;0;;;;;;;;;;
+;;;;;;;;;;;;;;;Ya;0;0;0;0;;;;;;;;;;;
+;;;;;;;;;;;;;;;Tidak;5;4;1;0,721928095;;;;;;;;;;;
